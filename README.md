@@ -65,7 +65,7 @@ pip install opencv-python numpy imutils pyautogui pillow
 pip install torch torchvision facial-emotion-recognition
 
 
-###3) 🎭 Real-Time Face Emotion Recognition (Webcam + Mobile IP Webcam)
+### 3) 🎭 Real-Time Face Emotion Recognition (Webcam + Mobile IP Webcam)
 
 This project detects **human facial emotions in real-time** using a live camera feed.  
 It supports both:
