@@ -65,48 +65,7 @@ pip install opencv-python numpy imutils pyautogui pillow
 pip install torch torchvision facial-emotion-recognition
 
 
-### 3) 🎭 Real-Time Face Emotion Recognition (Webcam + Mobile IP Webcam)
 
-This project detects **human facial emotions in real-time** using a live camera feed.  
-It supports both:
-
-✅ **Laptop Webcam**  
-✅ **Mobile Camera (IP Webcam App)**  
-
-It uses the **facial-emotion-recognition** library along with **OpenCV** to recognize emotions from facial expressions.
-
----
-
-## 📌 Features
-- Real-time emotion detection
-- Works with laptop webcam
-- Works with mobile IP Webcam
-- Runs in **CPU mode** (No GPU needed)
-- Displays emotion labels live on video feed
-
----
-
-## 🧰 Technologies / Libraries Used
-- Python
-- OpenCV
-- facial-emotion-recognition
-- Torch + Torchvision
-- NumPy
-- Imutils
-
----
-
-## 💻 Requirements
-- Python 3.8+
-- Laptop with webcam (or external webcam)
-- (Optional) Android mobile phone with IP Webcam app
-- Same WiFi network (for IP Webcam mode)
-
----
-
-## 🔧 Installation
-
-Install all required libraries:
 
 ```bash
 pip install torch torchvision
