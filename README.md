@@ -8,7 +8,7 @@ This repository contains my **Artificial Intelligence / Machine Learning project
 
 ### 1) Object Detection and Tracking (HSV) 🎯
 - Object tracking using HSV color space  
-- Uses OpenCV + contour detection  
+- OpenCV + contour detection  
 - Direction detection based on object position and radius  
 
 ---
@@ -16,44 +16,38 @@ This repository contains my **Artificial Intelligence / Machine Learning project
 ### 2) HSV Color Calibration Tool 🎚️
 - Tkinter GUI sliders for Hue, Saturation, Value  
 - Helps to find correct HSV range for any color  
-- Supports screenshot capture and webcam frame testing  
+- Webcam testing + screenshot capture  
 
 ---
 
 ### 3) Real-Time Face Emotion Recognition 🎭📷
-This project detects **human facial emotions in real-time** using a webcam or mobile camera (IP Webcam).  
-It uses the **facial-emotion-recognition** library along with **OpenCV**.
+Detects **human facial emotions in real-time** using webcam or Mobile IP camera.
 
-#### Features
-- Real-time emotion detection using laptop webcam  
-- Emotion detection using Mobile IP Camera (IP Webcam)  
-- Works in CPU mode (no GPU needed)  
+**Features**
+- Laptop webcam support  
+- Mobile IP Webcam support  
+- Works in CPU mode  
 
 ---
 
 ### 4) Real-Time Object Detection using MobileNet SSD 🎯📷
-This project performs **real-time object detection** using a webcam by loading a **pre-trained MobileNet SSD model** with OpenCV's DNN module.
+Real-time object detection using **OpenCV DNN** with a pre-trained **MobileNet SSD** model.
 
-It detects common objects like:
-- person
-- car
-- dog
-- chair
-- bottle
-- etc.
+**Detects:** person, car, dog, chair, bottle, etc.
 
-#### Features
-✅ Real-time detection using laptop webcam  
-✅ Uses OpenCV DNN (Deep Neural Network) module  
-✅ Bounding box + confidence percentage shown  
-✅ Fast and lightweight model (MobileNet SSD)
+**Model Files**
+- `MobileNetSSD_deploy.prototxt.txt`
+- `MobileNetSSD_deploy.caffemodel`
 
-#### Model Used
-- **MobileNet SSD**
-- Framework: **Caffe**
-- Files used:
-  - `MobileNetSSD_deploy.prototxt.txt`
-  - `MobileNetSSD_deploy.caffemodel`
+---
+
+### 5) Vehicle Detection using OpenCV (Haar Cascade) 🚗
+Detects vehicles in real-time using **OpenCV + Haar Cascade**.
+
+**Features**
+- Real-time vehicle detection  
+- Haar Cascade based detection  
+- Bounding box output  
 
 ---
 
@@ -67,7 +61,6 @@ It detects common objects like:
 - Pillow  
 - Torch + Torchvision  
 - facial-emotion-recognition  
-- urllib (for IP camera)  
 
 ---
 
@@ -75,20 +68,20 @@ It detects common objects like:
 
 | File Name | Description |
 |----------|-------------|
-| `main.py` | Object tracking program using HSV color range |
-| `colorCalibrationforHSV.py` | HSV slider calibration GUI tool |
-| `emotion.py` | Emotion recognition using laptop webcam |
-| `emotion_with_ip.py` | Emotion recognition using mobile IP webcam |
-| `ip.py` | Only displays IP webcam video stream |
-| `object_detection_mobilenetssd.py` | Real-time object detection using MobileNet SSD |
-| `MobileNetSSD_deploy.prototxt.txt` | MobileNet SSD model config file |
-| `MobileNetSSD_deploy.caffemodel` | MobileNet SSD trained weights |
+| `main.py` | Object tracking using HSV |
+| `colorCalibrationforHSV.py` | HSV calibration GUI tool |
+| `emotion.py` | Emotion recognition (webcam) |
+| `emotion_with_ip.py` | Emotion recognition (IP webcam) |
+| `ip.py` | IP webcam video stream |
+| `object_detection_mobilenetssd.py` | Object detection using MobileNet SSD |
+| `vehicle_detection.py` | Vehicle detection using Haar Cascade |
+| `haarcascade_car.xml` | Haar Cascade model file |
+| `MobileNetSSD_deploy.prototxt.txt` | MobileNet SSD config |
+| `MobileNetSSD_deploy.caffemodel` | MobileNet SSD weights |
 
 ---
 
 ## ⚙️ Installation
-
-### ✅ Install Requirements
 
 ```bash
 pip install opencv-python numpy imutils pyautogui pillow
