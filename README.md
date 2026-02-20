@@ -1,6 +1,6 @@
 # AI Projects 🚀
 
-This repository contains my **Artificial Intelligence / Machine Learning projects** and practice codes using **Python + OpenCV**.
+This repository contains my **Artificial Intelligence / Machine Learning projects** using **Python + OpenCV**.
 
 ---
 
@@ -9,31 +9,27 @@ This repository contains my **Artificial Intelligence / Machine Learning project
 ### 1) Object Detection and Tracking (HSV) 🎯
 - Object tracking using HSV color space  
 - OpenCV + contour detection  
-- Direction detection based on object position and radius  
+- Direction detection based on object position  
 
 ---
 
 ### 2) HSV Color Calibration Tool 🎚️
-- Tkinter GUI sliders for Hue, Saturation, Value  
-- Helps to find correct HSV range for any color  
-- Webcam testing + screenshot capture  
+- Tkinter GUI sliders for HSV values  
+- Helps find correct color range  
+- Webcam + screenshot support  
 
 ---
 
 ### 3) Real-Time Face Emotion Recognition 🎭📷
-Detects **human facial emotions in real-time** using webcam or Mobile IP camera.
-
-**Features**
-- Laptop webcam support  
-- Mobile IP Webcam support  
-- Works in CPU mode  
+- Detects human emotions in real-time  
+- Supports webcam & mobile IP camera  
+- Works on CPU  
 
 ---
 
-### 4) Real-Time Object Detection using MobileNet SSD 🎯📷
-Real-time object detection using **OpenCV DNN** with a pre-trained **MobileNet SSD** model.
-
-**Detects:** person, car, dog, chair, bottle, etc.
+### 4) Object Detection using MobileNet SSD 🎯📷
+- OpenCV DNN-based detection  
+- Detects: person, car, dog, chair, bottle  
 
 **Model Files**
 - `MobileNetSSD_deploy.prototxt.txt`
@@ -41,13 +37,21 @@ Real-time object detection using **OpenCV DNN** with a pre-trained **MobileNet S
 
 ---
 
-### 5) Vehicle Detection using OpenCV (Haar Cascade) 🚗
-Detects vehicles in real-time using **OpenCV + Haar Cascade**.
+### 5) Vehicle Detection (Haar Cascade) 🚗
+- Real-time vehicle detection  
+- Haar Cascade model  
+- Bounding box output  
+
+---
+
+### 6) License Plate Recognition (LPR) 🚘
+
+Detect and read vehicle number plates using **OpenCV + Tesseract OCR**.
 
 **Features**
-- Real-time vehicle detection  
-- Haar Cascade based detection  
-- Bounding box output  
+- Canny Edge Detection  
+- Contour-based plate detection  
+- OCR text extraction  
 
 ---
 
@@ -60,6 +64,7 @@ Detects vehicles in real-time using **OpenCV + Haar Cascade**.
 - pyautogui  
 - Pillow  
 - Torch + Torchvision  
+- pytesseract  
 - facial-emotion-recognition  
 
 ---
@@ -68,16 +73,16 @@ Detects vehicles in real-time using **OpenCV + Haar Cascade**.
 
 | File Name | Description |
 |----------|-------------|
-| `main.py` | Object tracking using HSV |
-| `colorCalibrationforHSV.py` | HSV calibration GUI tool |
-| `emotion.py` | Emotion recognition (webcam) |
-| `emotion_with_ip.py` | Emotion recognition (IP webcam) |
-| `ip.py` | IP webcam video stream |
-| `object_detection_mobilenetssd.py` | Object detection using MobileNet SSD |
-| `vehicle_detection.py` | Vehicle detection using Haar Cascade |
-| `haarcascade_car.xml` | Haar Cascade model file |
-| `MobileNetSSD_deploy.prototxt.txt` | MobileNet SSD config |
-| `MobileNetSSD_deploy.caffemodel` | MobileNet SSD weights |
+| `main.py` | HSV object tracking |
+| `colorCalibrationforHSV.py` | HSV calibration tool |
+| `emotion.py` | Emotion detection (webcam) |
+| `emotion_with_ip.py` | Emotion detection (IP cam) |
+| `object_detection_mobilenetssd.py` | MobileNet SSD detection |
+| `vehicle_detection.py` | Vehicle detection |
+| `lpr.py` | License plate recognition |
+| `haarcascade_car.xml` | Haar Cascade model |
+| `MobileNetSSD_deploy.prototxt.txt` | Model config |
+| `MobileNetSSD_deploy.caffemodel` | Model weights |
 
 ---
 
@@ -86,4 +91,5 @@ Detects vehicles in real-time using **OpenCV + Haar Cascade**.
 ```bash
 pip install opencv-python numpy imutils pyautogui pillow
 pip install torch torchvision
+pip install pytesseract
 pip install facial-emotion-recognition
