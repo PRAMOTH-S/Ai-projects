@@ -3,7 +3,7 @@ import pytesseract
 pytesseract.pytesseract.tesseract_cmd = 'C:/Program Files/Tesseract-OCR/tesseract.exe'
 
 # Read the image file
-image = cv2.imread('car9.JPG')
+image = cv2.imread('car2.JPG')
 cv2.imshow("Original",image)
 
 # Convert to Grayscale Image
@@ -66,6 +66,7 @@ image = cv2.rectangle(image, (x,y), (x+w,y+h), (0,0,255), 3)
 image = cv2.putText(image, text, (x-100,y-20), cv2.FONT_HERSHEY_SIMPLEX, 1, (0,255,0), 2, cv2.LINE_AA)
 cv2.imshow("plate",image)
 print("License Plate :", text)
+
 
 
 
