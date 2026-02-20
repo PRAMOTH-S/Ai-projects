@@ -1,6 +1,6 @@
 import numpy as np
 import imutils  #resize the image
-import opencv
+import cv2
 import time
 
 prototxt = "MobileNetSSD_deploy.prototxt.txt"
