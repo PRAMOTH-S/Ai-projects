@@ -7,7 +7,7 @@
 ---
 
 ## 📌 Overview
-This  implements a machine learning pipeline to predict the presence of heart disease using clinical parameters.  
+This project  implements a machine learning pipeline to predict the presence of heart disease using clinical parameters.  
 It is designed as a foundational healthcare AI system that can assist in early risk detection.
 
 The model is trained on structured medical data and performs  binary classification:
