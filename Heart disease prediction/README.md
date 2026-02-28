@@ -30,4 +30,33 @@ The model is trained on structured medical data and performs binary classificati
 
 ---
 
+
+---
+
+### 📌 Structure Explanation
+
+- **data/** → Contains raw and processed datasets  
+- **src/** → Core application logic (training + inference)  
+- **models/** → Stores serialized models (`.pkl`)  
+- **notebooks/** → Used for research, testing, and visualization  
+- **outputs/** → Stores evaluation results and visualizations  
+- **requirements.txt** → Lists all dependencies for reproducibility  
+
+---
+
+### ⚠️ Best Practice Notes
+- Keep **data/** out of Git if large (use `.gitignore`)  
+- Always version control **model code**, not just the model file  
+- Separate **training and prediction logic** (already done ✔)  
+- Avoid mixing notebooks with production code  
+
+---
+
+This version is closer to what recruiters and reviewers expect in a **production-ready ML repo**.
+
+If you want next upgrade, I can:
+- Add **ML pipeline structure (Pipeline + Scaler)**  
+- Convert this into **industry-level repo (with config files, logging, API)**  
+- Or make it **top-tier GitHub (with diagrams + visuals)** 🚀
+
 ## 📂 Project Structure
