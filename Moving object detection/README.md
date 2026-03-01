@@ -6,7 +6,7 @@
 
 ---
 
-## 📌 Overviw
+## 📌 Overview
 This project implements a **real-time moving object detection system** using **OpenCV and Python**.  
 It detects motion in video streams by analyzing frame differences and highlighting moving regions with bounding boxes.
 
