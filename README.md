@@ -9,7 +9,7 @@ This repository contains my **Artificial Intelligence / Machine Learning project
 ### 1) Object Detection and Tracking (HSV) 🎯
 - Object tracking using HSV color space  
 - OpenCV + contour detection  
-- Direction detection based on object positio 
+- Direction detection based on object position
 
 ---
 
