@@ -4,7 +4,7 @@ This repository contains my **Artificial Intelligence / Machine Learning project
 
 ---
 
-## 📌 Projects Included
+## 📌 Projects Include
 
 ### 1) Object Detection and Tracking (HSV) 🎯
 - Object tracking using HSV color space  
