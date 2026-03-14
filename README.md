@@ -1,6 +1,6 @@
 # AI Projects 🚀
 
-This repository contains my **Artificial Intelligence / Machine Learning projects** using **Python + OpenCV**.
+This repository contains my **Artificial Intelligence / Machine Learning projects** using **Python + OpenCV**
 
 ---
 
