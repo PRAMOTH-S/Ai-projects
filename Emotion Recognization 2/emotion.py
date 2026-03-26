@@ -1,4 +1,4 @@
-from facial_emotion_recognition import EmotionRecognitio
+from facial_emotion_recognition import EmotionRecognition
 import cv2
 
 er=EmotionRecognition(device='cpu')
