@@ -1,4 +1,4 @@
-# 🚶 Moving Object Detection System
+# 🚶 Moving Object Detection Syste
 
 ![Python](https://img.shields.io/badge/Python-3.9+-blue)
 ![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-green)
